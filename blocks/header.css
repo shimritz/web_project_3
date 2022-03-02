@@ -1,0 +1,25 @@
+.header {
+  background-color: #e5e5e5;
+}
+
+.header__logo {
+}
+
+.header__title {
+  font-size: 96px;
+  line-height: 1;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.header__subtitle {
+  padding-bottom: 64px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.header__image {
+  margin: 168px 148px 92px 148px;
+}
