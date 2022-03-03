@@ -1,0 +1,22 @@
+.intro {
+  width: 785px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 347px 118px 148px;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.07;
+}
+
+.intro__text {
+  margin-right: 65px;
+}
+
+.intro__text-author {
+  align-self: flex-end;
+}
