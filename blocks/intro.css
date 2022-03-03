@@ -16,7 +16,17 @@
 .intro__text {
   margin-right: 65px;
 }
+.intro__text-quote {
+  font-family: "Inter";
+  font-size: 24px;
+}
 
 .intro__text-author {
   align-self: flex-end;
+  margin-right: 65px;
+}
+
+.intro__text-intro {
+  font-size: 16px;
+  /*  line-height: 163%; */
 }
