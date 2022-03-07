@@ -1,0 +1,89 @@
+.places__container {
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+
+.card {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 2 1fr;
+  grid-template-rows: 3 1fr;
+  grid-template-areas:
+    "title artist"
+    "picture content"
+    "footer footer";
+  gap: 48px;
+}
+
+.card__title {
+  grid-area: title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 50%;
+}
+
+.card__artist {
+  grid-area: artist;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 456px;
+  align-self: end;
+}
+
+.card__artist_content {
+  margin: 0;
+}
+
+.card__url-heading {
+  font-size: 12px;
+  line-height: 14.5px;
+  letter-spacing: 1.2px;
+  color: #aaaaaa;
+  grid-area: header;
+  margin-bottom: 8px;
+}
+
+.card__artist-name {
+  grid-area: artist;
+}
+.card__picture {
+  grid-area: picture;
+}
+
+.card__content {
+  grid-area: content;
+  width: 484px;
+}
+
+.card__content_type_para1 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.card__content_type_para2 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.card__content_type_para3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.card__footer {
+  grid-area: footer;
+  justify-self: start;
+}
+
+.card__footer-button {
+  color: #ffffff; /*not inhereted from parent thats why its specified in the button */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 4px;
+  background-color: #0278fe;
+  padding: 13px 20px 13px 20px;
+}
