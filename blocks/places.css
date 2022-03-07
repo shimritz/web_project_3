@@ -14,7 +14,7 @@
     "title artist"
     "picture content"
     "footer footer";
-  gap: 48px;
+  grid-gap: 48px 40px;
 }
 
 .card__title {
@@ -38,17 +38,19 @@
 }
 
 .card__url-heading {
+  display: inline-block;
   font-size: 12px;
   line-height: 14.5px;
   letter-spacing: 1.2px;
   color: #aaaaaa;
-  grid-area: header;
+  text-decoration: none;
   margin-bottom: 8px;
 }
 
 .card__artist-name {
   grid-area: artist;
 }
+
 .card__picture {
   grid-area: picture;
 }
