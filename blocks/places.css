@@ -2,18 +2,17 @@
   color: #ffffff;
   font-family: "Inter", Arial, sans-serif;
   margin-top: 92px;
-  /* margin-left: 148px; */
 }
 
 .card {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: 2 1fr;
-  grid-template-rows: 3 1fr;
+  grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title artist"
     "picture content"
-    "footer footer";
+    "footer content"
+    ". content";
   grid-gap: 48px 40px;
 }
 
@@ -88,6 +87,10 @@
   border-radius: 4px;
   background-color: #0278fe;
   padding: 13px 20px 13px 20px;
+}
+
+.card__footer-button:hover {
+  background-color: #0063d2;
 }
 
 .section_type_narrow {
