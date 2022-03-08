@@ -1,30 +1,27 @@
 .intro {
-  max-width: 785px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
   margin: 0 347px 118px 148px;
-  max-width: 640px;
   margin-left: 148px;
   margin-right: 0;
 }
 
 .intro__title {
-  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 54px;
   line-height: 1.07;
 }
 
 .intro__text {
-  font-family: "Inter", Arial, sans-serif;
   margin-right: 65px;
+
   line-height: 26px;
 }
 
 .intro__text_type_quote {
-  font-family: "Inter", Arial, sans-serif;
   font-size: 24px;
 }
 
@@ -36,8 +33,13 @@
 }
 
 .intro__text_type_description {
-  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 26px;
   margin: 0;
+}
+
+.section_type_narrow {
+  width: calc(100% - 100px * 2);
+  margin-left: auto;
+  margin-right: auto;
 }

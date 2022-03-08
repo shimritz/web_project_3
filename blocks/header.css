@@ -39,9 +39,6 @@
 }
 
 .header__image {
-  /* display: block; */
-  /* margin-left: auto;
-  margin-right: auto; */
   width: 80%;
   filter: grayscale(100%);
   padding-bottom: 92px;
