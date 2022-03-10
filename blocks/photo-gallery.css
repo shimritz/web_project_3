@@ -1,7 +1,7 @@
 .photo-gallery-container {
   /* max-width: 1184px; */ /*according to gigma but when i set it the grid items wrap into a new line */
-  /* max-width: 1284px; */
-  max-width: 100vw;
+  max-width: 1284px;
+
   margin-right: 48px;
   margin-left: 48px;
   /* box-sizing: border-box; */
