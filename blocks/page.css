@@ -3,7 +3,9 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   color: #ffffff;
   /* margin-left: 148px; */
-  max-width: 1184px;
+  /* max-width: 1184px; */
+  /* max-width: 1280px; */
+  /* box-sizing: border-box; */
 }
 
 .page__content {
