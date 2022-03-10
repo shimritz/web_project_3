@@ -43,3 +43,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 90px;
+  }
+  .intro__title {
+    max-width: 720px;
+  }
+  .intro__text {
+    max-width: 720px;
+  }
+}
