@@ -1,13 +1,15 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
+  /* margin-left: 48px;
+  margin-right: 48px; */
   background-image: url("../images/__background\ \(1\).jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   /* align-content: center; */
   position: relative;
-  margin: 0 auto;
+  margin: 92px auto 0 auto;
 }
 
 .cover__heading {
@@ -58,6 +60,12 @@ a {
   align-content: center;
   text-align: center;
   gap: 32px;
+}
+
+.section_type_narrow {
+  width: calc(100% - 100px * 2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cover::before {

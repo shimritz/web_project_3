@@ -1,5 +1,4 @@
 .card {
-  padding-top: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-areas:
@@ -8,6 +7,8 @@
     "footer content"
     ". content";
   grid-gap: 48px 40px;
+  margin-left: 148px;
+  margin-right: 148px;
 }
 
 .card__title {

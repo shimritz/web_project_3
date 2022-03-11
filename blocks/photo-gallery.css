@@ -1,19 +1,22 @@
 .photo-gallery-container {
   /* max-width: 1184px; */ /*according to gigma but when i set it the grid items wrap into a new line */
-  max-width: 1284px;
-
+  /* max-width: 1284px; */
+  margin-top: 118px;
   margin-right: 48px;
   margin-left: 48px;
+  margin-bottom: 0;
   /* box-sizing: border-box; */
 }
 
 .photo-gallery__list {
   display: grid;
   grid-gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(4, minmax(284px, 1fr));
 
   list-style: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .photo-gallery__image {
