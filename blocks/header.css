@@ -39,8 +39,6 @@
 }
 
 .header__image {
-  width: 984px;
-  height: 615px;
   width: calc(100% - 148px * 2);
   margin-top: 64px;
   filter: grayscale(100%);
@@ -51,7 +49,16 @@
 
 @media screen and (max-width: 768px) {
   .header__title {
-    max-width: 720px;
+    width: calc(100% - 24px * 2);
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  .header__image {
+    width: 100%;
+    margin-top: 36px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 /* margin-right: auto;
