@@ -95,7 +95,7 @@
   background-color: #0063d2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
   .card {
     grid-template-columns: 340px 1fr;
     margin-left: 24px;
@@ -106,5 +106,26 @@
   .card__content {
     grid-area: content;
     width: 352px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+    width: calc(100% - 16px * 2);
+    margin-right: 16px;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-template-areas:
+      "title"
+      "artist"
+      "picture"
+      "content"
+      "footer";
+    grid-gap: 50px;
+  }
+  .card__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

@@ -38,3 +38,8 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
 }
+@media screen and (max-width: 320px) {
+  .photo-gallery__list {
+    grid-gap: 12px;
+  }
+}
