@@ -39,11 +39,9 @@
 }
 
 .header__image {
-  max-width: 984px;
-  max-height: 615px;
-  /* width: calc(100% - 148px * 2); */
-  /* width: 80%; */
-  /* object-fit: contain; */
+  width: 984px;
+  height: 615px;
+  width: calc(100% - 148px * 2);
   margin-top: 64px;
   filter: grayscale(100%);
 
