@@ -9,6 +9,8 @@
   grid-gap: 48px 40px;
   margin-left: 148px;
   margin-right: 148px;
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 
 .card__title {
@@ -55,11 +57,14 @@
 }
 
 .card__content_type_para1 {
+  margin: 0;
   font-size: 18px;
   line-height: 30px;
 }
 
 .card__content_type_para2 {
+  margin-top: 25px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 30px;
 }
