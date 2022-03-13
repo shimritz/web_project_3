@@ -14,3 +14,9 @@
 .page__content {
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .page {
+    box-sizing: border-box;
+  }
+}

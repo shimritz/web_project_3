@@ -7,8 +7,8 @@
     "footer content"
     ". content";
   grid-gap: 48px 40px;
-  margin-left: 148px;
-  margin-right: 148px;
+  padding-left: 148px;
+  padding-right: 148px;
   margin-top: 60px;
   margin-bottom: 0;
 }
@@ -97,7 +97,7 @@
 @media screen and (max-width: 768px) and (min-width: 321px) {
   .card {
     grid-template-columns: 340px 1fr;
-    margin-left: 24px;
+    padding-left: 24px;
     margin-right: 24px;
     grid-gap: 48px 28px;
   }
@@ -119,16 +119,18 @@
       "picture"
       "picture"
       "content"
+      "footer"
       "footer";
     grid-gap: 30px;
     margin-top: 50px;
+    padding: 0;
   }
   .card__artist {
     grid-area: artist;
-    /* width: 100%; */
-    width: calc(100% - 16px * 2);
-    margin-right: 16px;
-    margin-left: 16px;
+    width: 100%;
+    /* width: calc(100% - 16px * 2); */
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .card__title {
     grid-area: title;
@@ -139,18 +141,20 @@
   }
   .card__content {
     grid-area: content;
-    width: calc(100% - 16px * 2);
+    width: 100%;
+    /* width: calc(100% - 16px * 2); */
     padding-right: 16px;
     padding-left: 16px;
   }
   .card__footer {
     grid-area: footer;
     width: 100%;
-    margin-right: 16px;
-    margin-left: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .card__footer-button {
-    width: calc(100% - 16px * 2);
+    width: 100%;
+    /* width: calc(100% - 16px * 2); */
     padding: 13px 40px;
     font-size: 18px;
     line-height: 22px;

@@ -40,6 +40,18 @@
 }
 @media screen and (max-width: 320px) {
   .photo-gallery__list {
+    grid-template-columns: repeat(1, minmax(288px, 1fr));
     grid-gap: 12px;
+  }
+
+  .photo-gallery-container {
+    /* max-width: 1184px; */
+    /* max-width: 1284px; */
+    /* margin: 118px 48px 0 48px; */
+
+    margin-right: 16px;
+    margin-left: 16px;
+
+    /* box-sizing: border-box; */
   }
 }

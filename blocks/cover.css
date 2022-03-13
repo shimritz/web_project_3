@@ -89,11 +89,30 @@ a {
 
 @media screen and (max-width: 320px) {
   .cover {
+    width: 320px;
     height: 254px;
+    margin: 0;
+    min-height: 0;
+    margin-top: 64px;
+
+    /* background-image: url("../images/__background\ \(1\).jpg"); */
+    /* background-size: co; */
+    /* display: flex; */
+    /* justify-content: center;
+
+    position: relative;
+    margin: 92px 42px 0 42px; */
+  }
+  .cover__content {
+    gap: 16px;
+    /* justify-content: space-around; */
+    padding-bottom: 45px;
   }
   .cover__heading {
     font-size: 32px;
     line-height: 35px;
+
+    margin: 46px auto 0 auto;
   }
   .cover__text-container {
     font-size: 14px;
@@ -101,11 +120,11 @@ a {
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .cover__button {
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
     border: none;
-    margin-top: 16px;
   }
 }

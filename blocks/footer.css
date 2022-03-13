@@ -13,11 +13,11 @@
     padding-top: 88px;
     margin: 0;
   }
+}
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .footer__copyrights {
     padding-top: 64px;
     margin: 0;
   }
-  
 }
