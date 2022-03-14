@@ -82,7 +82,7 @@ a {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .cover {
     width: 320px;
     height: 254px;
