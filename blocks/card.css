@@ -21,7 +21,7 @@
   line-height: 76px;
 }
 
-.card__artist {
+.card__website {
   grid-area: artist;
   font-size: 18px;
   line-height: 22px;
@@ -29,12 +29,12 @@
   align-self: end;
 }
 
-.card__artist_content {
+.card__artist {
   margin: 0;
 }
 
 .card__url-heading {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 12px;
   line-height: 14.5px;
   letter-spacing: 1.2px;
@@ -52,7 +52,7 @@
   width: 100%;
 }
 
-.card__content {
+.card__content-container {
   grid-area: content;
   max-width: 484px;
   font-size: 18px;
