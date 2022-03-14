@@ -1,15 +1,10 @@
 .cover {
   width: calc(100% - 48px * 2);
   min-height: 740px;
-  /* max-width: 1184px;
-  min-height: 740px; */
-  /* margin-left: 48px;
-  margin-right: 48px; */
   background-image: url("../images/__background\ \(1\).jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
-  /* align-content: center; */
   position: relative;
   margin: 92px 42px 0 42px;
 }
@@ -94,18 +89,9 @@ a {
     margin: 0;
     min-height: 0;
     margin-top: 64px;
-
-    /* background-image: url("../images/__background\ \(1\).jpg"); */
-    /* background-size: co; */
-    /* display: flex; */
-    /* justify-content: center;
-
-    position: relative;
-    margin: 92px 42px 0 42px; */
   }
   .cover__content {
     gap: 16px;
-    /* justify-content: space-around; */
     padding-bottom: 45px;
   }
   .cover__heading {
