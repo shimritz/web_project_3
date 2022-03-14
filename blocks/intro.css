@@ -15,19 +15,16 @@
   max-width: 785px;
 }
 
-.intro__text {
+.intro__quote {
   margin-right: 65px;
   line-height: 26px;
   margin-top: 40px;
   padding: 0;
   margin-bottom: 0;
-}
-
-.intro__text_type_quote {
   font-size: 24px;
 }
 
-.intro__text_type_author {
+.intro__quote-author {
   align-self: flex-end;
   margin-top: 10px;
   margin-bottom: 0;
@@ -35,7 +32,7 @@
   line-height: 2;
 }
 
-.intro__text_type_description {
+.intro__description {
   font-size: 16px;
   line-height: 26px;
   margin-top: 32px;
