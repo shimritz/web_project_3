@@ -7,8 +7,9 @@
     "footer content"
     ". content";
   grid-gap: 48px 40px;
-  padding-left: 148px;
-  padding-right: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 984px;
   margin-top: 60px;
   margin-bottom: 0;
 }
@@ -53,7 +54,7 @@
 
 .card__content {
   grid-area: content;
-  width: 484px;
+  max-width: 484px;
   font-size: 18px;
   line-height: 30px;
 }
@@ -104,11 +105,11 @@
 
   .card__content {
     grid-area: content;
-    width: 352px;
+    /* width: 352px; */
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 525px) {
   .card {
     margin: 0;
     display: grid;

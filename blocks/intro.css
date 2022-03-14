@@ -12,7 +12,7 @@
   font-size: 54px;
   line-height: 1.07;
   margin: 0;
-  width: 785px;
+  max-width: 785px;
 }
 
 .intro__text {
@@ -66,11 +66,13 @@
     width: calc(100% - 16px * 2);
     margin-right: 16px;
     margin-left: 16px;
+    margin-top: 64px;
   }
   .intro__title {
     width: 100%;
     font-size: 32px;
     line-height: 35px;
+    /* margin: 64px auto 40px auto; */
   }
   .intro__text {
     width: 100%;
