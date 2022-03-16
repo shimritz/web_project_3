@@ -6,7 +6,7 @@
     "picture content"
     "footer content"
     ". content";
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   margin-left: auto;
   margin-right: auto;
   max-width: 984px;
@@ -19,6 +19,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card__website {
@@ -34,13 +36,14 @@
 }
 
 .card__url-heading {
-  /* display: inline-block; */
   font-size: 12px;
   line-height: 14.5px;
   letter-spacing: 1.2px;
   color: #aaaaaa;
   text-decoration: none;
   margin-bottom: 8px;
+  margin-top: 0;
+  font-weight: 400;
 }
 
 .card__artist-name {
@@ -57,23 +60,6 @@
   max-width: 484px;
   font-size: 18px;
   line-height: 30px;
-}
-
-.card__content_type_para1 {
-  width: 100%;
-  margin: 0;
-}
-
-.card__content_type_para2 {
-  width: 100%;
-  margin-top: 25px;
-  margin-bottom: 0;
-}
-
-.card__content_type_para3 {
-  width: 100%;
-  margin-top: 25px;
-  margin-bottom: 0;
 }
 
 .card__footer {
@@ -100,19 +86,17 @@
     grid-template-columns: 340px 1fr;
     padding-left: 24px;
     margin-right: 24px;
-    grid-gap: 48px 28px;
+    gap: 48px 28px;
   }
 
   .card__content {
     grid-area: content;
-    /* width: 352px; */
   }
 }
 
 @media screen and (max-width: 525px) {
   .card {
     margin: 0;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -122,7 +106,7 @@
       "content"
       "footer"
       "footer";
-    grid-gap: 30px;
+    gap: 30px;
     margin-top: 50px;
     padding: 0;
   }

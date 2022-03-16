@@ -11,13 +11,11 @@
 @media screen and (max-width: 768px) {
   .footer__copyrights {
     padding-top: 88px;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer__copyrights {
     padding-top: 64px;
-    margin: 0;
   }
 }
