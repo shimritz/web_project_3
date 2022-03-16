@@ -4,14 +4,10 @@
   color: #ffffff;
   box-sizing: border-box;
   margin: 0;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .page__content {
   padding: 0;
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    box-sizing: border-box;
-  }
 }

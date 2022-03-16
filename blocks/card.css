@@ -62,13 +62,20 @@
   line-height: 30px;
 }
 
-.card__footer {
-  grid-area: footer;
-  justify-self: start;
+.card__content {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.card__content:last-child {
+  margin: 0;
 }
 
 .card__footer-button {
+  grid-area: footer;
+  justify-self: start;
   color: #ffffff; /*not inhereted from parent thats why its specified in the button */
+  text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;

@@ -14,6 +14,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cover__text-container {
@@ -45,7 +47,7 @@
   background-color: #0063d2;
 }
 
-a {
+.cover__button {
   text-decoration: none;
 }
 
@@ -60,18 +62,12 @@ a {
   gap: 32px;
 }
 
-.section_type_narrow {
-  width: calc(100% - 100px * 2);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .cover::before {
   content: "";
   width: 100%;
   height: 100%;
   background-color: #2a2c2f;
-  opacity: 0;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
@@ -85,7 +81,7 @@ a {
 @media screen and (max-width: 600px) {
   .cover {
     width: 320px;
-    height: 254px;
+    min-height: 254px;
     margin: 0;
     min-height: 0;
     margin-top: 64px;
