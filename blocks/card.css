@@ -58,13 +58,13 @@
 .card__content-container {
   grid-area: content;
   max-width: 484px;
-  font-size: 18px;
-  line-height: 30px;
 }
 
 .card__content {
   margin: 0;
   margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .card__content:last-child {
@@ -88,16 +88,23 @@
   background-color: #0063d2;
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 960px) and (min-width: 526px) {
   .card {
     grid-template-columns: 340px 1fr;
     padding-left: 24px;
     margin-right: 24px;
     gap: 48px 28px;
   }
+  .card__title {
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 900;
+  }
 
   .card__content {
     grid-area: content;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
@@ -120,7 +127,6 @@
   .card__artist {
     grid-area: artist;
     width: 100%;
-    /* width: calc(100% - 16px * 2); */
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -134,9 +140,10 @@
   .card__content {
     grid-area: content;
     width: 100%;
-    /* width: calc(100% - 16px * 2); */
     padding-right: 16px;
     padding-left: 16px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .card__footer {
     grid-area: footer;
