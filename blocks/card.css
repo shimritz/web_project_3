@@ -57,7 +57,7 @@
 
 .card__content-container {
   grid-area: content;
-  max-width: 484px;
+  width: 100%;
 }
 
 .card__content {
@@ -101,6 +101,11 @@
     font-weight: 900;
   }
 
+  .card__content-container {
+    max-width: 100%;
+    min-width: 288px;
+  }
+
   .card__content {
     grid-area: content;
     font-size: 16px;
@@ -141,11 +146,15 @@
     margin-left: 16px;
     margin-right: 16px;
   }
+
+  .card__content-container {
+    width: 100%;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
   .card__content {
     grid-area: content;
     width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
     font-size: 16px;
     line-height: 26px;
   }
