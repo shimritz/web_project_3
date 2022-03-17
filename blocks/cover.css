@@ -1,5 +1,5 @@
 .cover {
-  max-width: calc(100% - 148 * 2);
+  max-width: calc(100% - 48px * 2);
   min-height: 740px;
   background-image: url("../images/__background\(1\).jpg");
   background-size: cover;
@@ -7,6 +7,7 @@
   justify-content: center;
   position: relative;
   margin: 92px 48px 0 48px;
+  align-items: center;
 }
 
 .cover__heading {
@@ -80,14 +81,16 @@
 
 @media screen and (max-width: 960px) {
   .cover {
-    width: 100%;
+    max-width: 100%;
     min-height: 746px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .cover {
-    width: 100%;
+    max-width: 100%;
     min-height: 254px;
     margin: 0;
     margin-top: 64px;
