@@ -24,4 +24,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **Github Pages**
 
-- [Link to the project on Github Pages]
+- [Link to the project on Github Pages](https://shimritz.github.io/web_project_3)
