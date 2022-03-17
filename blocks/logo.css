@@ -1,6 +1,7 @@
 .header__logo {
   width: 100%;
   max-width: 270px;
+  min-height: 70px;
   margin-top: 34px;
   display: block;
   margin-left: auto;
@@ -12,9 +13,11 @@
   margin-left: 5.5px;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .header__logo {
-    width: 200px;
-    margin: 20px 60px auto 60px;
+    max-width: 200px;
+    min-height: 52px;
+    /* margin: 20px 60px auto 60px; */
+    margin: 20px auto 0 auto;
   }
-} */
+}

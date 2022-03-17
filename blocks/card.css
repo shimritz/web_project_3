@@ -137,6 +137,10 @@
     font-weight: 900;
     line-height: 35px;
   }
+  .card__url-heading {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .card__content {
     grid-area: content;
     width: 100%;
@@ -145,15 +149,10 @@
     font-size: 16px;
     line-height: 26px;
   }
-  .card__footer {
-    grid-area: footer;
-    width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
+
   .card__footer-button {
-    width: 100%;
-    /* width: calc(100% - 16px * 2); */
+    /* width: 100%; */
+    max-width: 248px;
     padding: 13px 40px;
     font-size: 18px;
     line-height: 22px;
