@@ -1,7 +1,7 @@
 .footer__copyrights {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 24px;
   padding-top: 92px;
   text-align: center;
@@ -11,13 +11,11 @@
 @media screen and (max-width: 768px) {
   .footer__copyrights {
     padding-top: 88px;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer__copyrights {
     padding-top: 64px;
-    margin: 0;
   }
 }
