@@ -131,7 +131,7 @@
   }
   .card__artist {
     grid-area: artist;
-    width: 100%;
+    width: calc(100% - 16px * 2);
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -146,9 +146,8 @@
     margin-left: 16px;
     margin-right: 16px;
   }
-
   .card__content-container {
-    width: 100%;
+    width: calc(100% - 16px * 2);
     margin-right: 16px;
     margin-left: 16px;
   }
@@ -158,12 +157,12 @@
     font-size: 16px;
     line-height: 26px;
   }
-
   .card__footer-button {
     /* width: 100%; */
     max-width: 248px;
     padding: 13px 40px;
     font-size: 18px;
     line-height: 22px;
+    margin-left: 16px;
   }
 }
