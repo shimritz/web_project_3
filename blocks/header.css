@@ -9,10 +9,6 @@
   margin-bottom: 0;
 }
 
-.header__logo-space {
-  margin-left: 5.5px;
-}
-
 @media screen and (max-width: 600px) {
   .header__logo {
     max-width: 200px;
