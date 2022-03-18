@@ -42,14 +42,11 @@
   padding: 13px 20px 13px 20px;
   font-weight: 600;
   border: none;
+  text-decoration: none;
 }
 
 .cover__button:hover {
   background-color: #0063d2;
-}
-
-.cover__button {
-  text-decoration: none;
 }
 
 .cover__content {
