@@ -16,13 +16,12 @@
 }
 
 .intro__quote {
-  /* margin-right: 65px; */
   line-height: 34px;
   margin-top: 40px;
   padding: 0;
   margin-bottom: 0;
   font-size: 24px;
-  max-width: 720px;
+  max-width: 785px;
 }
 
 .intro__quote-author {

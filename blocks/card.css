@@ -58,6 +58,7 @@
 .card__content-container {
   grid-area: content;
   width: 100%;
+  min-width: 288px;
 }
 
 .card__content {
@@ -88,7 +89,7 @@
   background-color: #0063d2;
 }
 
-@media screen and (max-width: 960px) and (min-width: 526px) {
+@media screen and (max-width: 960px) and (min-width: 768px) {
   .card {
     grid-template-columns: 340px 1fr;
     padding-left: 24px;
@@ -103,7 +104,7 @@
 
   .card__content-container {
     max-width: 100%;
-    min-width: 288px;
+    min-width: 352px;
   }
 
   .card__content {
@@ -113,7 +114,7 @@
   }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 767px) {
   .card {
     margin: 0;
     grid-template-columns: 1fr;
@@ -150,6 +151,7 @@
     width: calc(100% - 16px * 2);
     margin-right: 16px;
     margin-left: 16px;
+    min-width: 288px;
   }
   .card__content {
     grid-area: content;
